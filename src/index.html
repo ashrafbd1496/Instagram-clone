@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+  <title>Instagram Ui Clone using Tailwind Css</title>
+</head>
+<body>
+    <div class="header-menu">
+        <div class="flex h-screen bg-gray-100">
+            <div class="fixed left-0 flex flex-col justify-between lg:w-56 h-full bg-white border-r border-gray-200">
+              <!-- INstagram Text Logo -->
+              <div class="flex hidden lg:inline-grid items-center h-16 px-4">
+                <img class="h-8" src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" alt="Instagram logo">
+              </div>
+              <!-- incon logo -->
+              <div class="flex lg:hidden items-center h-16 px-8">
+                <img class="h-8" src="https://www.pngall.com/wp-content/uploads/5/Instagram-Logo.png" alt="Instagram icon logo">
+              </div>
+              
+              <!-- Navigation -->
+              <nav class="flex-1 overflow-y-auto sm:block">
+                <ul class="py-4">
+                  <li class="px-4 py-2 border-l-4 border-transparent hover:bg-gray-200">
+                    <span class="inline-flex items-center px-2 py-0.5 space-x-4">
+                        <img class="w-8 " src="https://img.icons8.com/material-rounded/1x/home.png" alt="">
+                          
+                        <a class="hidden lg:inline-grid" href="#">Home</a>
+                      </span>
+                      
+                   
+                  </li>
+                  <li class="px-4 py-2 border-l-4 border-transparent hover:bg-gray-200">
+                    <span class="inline-flex items-center px-2 py-0.5 space-x-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                          </svg>
+                          
+                          
+                        <a class="hidden lg:inline-grid" href="#">Search</a>
+                      </span>
+                      
+                  </li>
+                  <li class="px-4 py-2 border-l-4 border-transparent hover:bg-gray-200">
+                    <span class="inline-flex items-center px-2 py-0.5 space-x-4">
+                        <img class="w-6" src="https://img.icons8.com/ios/1x/compass-south--v2.png" alt="">
+                          
+                        <a class="hidden lg:inline-grid" href="#">Explore</a>
+                      </span>
+                      
+                  </li>
+                  <li class="px-4 py-2 border-l-4 border-transparent hover:bg-gray-200">
+                    <span class="inline-flex items-center px-2 py-0.5 space-x-4">
+                        <img class="w-8" src="https://img.icons8.com/ios/1x/instagram-reel.png" alt="">
+                          
+                        <a class="hidden lg:inline-grid" href="#">Reels</a>
+                      </span>
+                      
+                  </li>
+                  <li class="px-4 py-2 border-l-4 border-transparent hover:bg-gray-200">
+                    <span class="inline-flex items-center px-2 py-0.5 space-x-4">
+                        <img class="w-8" src="https://img.icons8.com/ios/1x/facebook-messenger--v3.gif" alt="">
+                          
+                        <a class="hidden lg:inline-grid" href="#">Messages</a>
+                      </span>
+                      
+                  </li>
+                  <li class="px-4 py-2 border-l-4 border-transparent hover:bg-gray-200">
+                    <span class="inline-flex items-center px-2 py-0.5 space-x-4">
+                       <img class="w-8" src="https://img.icons8.com/material-outlined/1x/filled-like.png" alt="">
+                          
+                        <a class="hidden lg:inline-grid" href="#">Notifications</a>
+                      </span>
+                      
+                  </li>
+                  <li class="px-4 py-2 border-l-4 border-transparent hover:bg-gray-200">
+                    <span class="inline-flex items-center px-2 py-0.5 space-x-4">
+                        <img class="w-8" src="https://img.icons8.com/external-others-inmotus-design/1x/external-Plus-virtual-keyboard-others-inmotus-design.png" alt="">
+                          
+                        <a class="hidden lg:inline-grid" href="#">Create</a>
+                      </span>
+                      
+                  </li>
+                  <li class="px-4 py-2 border-l-4 border-transparent hover:bg-gray-200">
+                    <span class="inline-flex items-center px-2 py-0.5 space-x-4">
+                        <img class="w-8" src="https://img.icons8.com/color/1x/user-male-circle.png" alt="">
+                          
+                        <a class="hidden lg:inline-grid" href="#">Profile</a>
+                      </span>
+                      
+                  </li>
+                </ul>
+              </nav>
+              
+              <!-- Footer -->
+              <div class="flex items-center h-16 px-4 border-t border-gray-200">
+                <span class="inline-flex cursor-pointer items-center px-2 py-0.5 space-x-4">
+                  <img class="w-8" src="https://img.icons8.com/ios-glyphs/1x/menu-rounded.png" alt="">
+                    
+                  <a class="hidden lg:inline-grid cursor-pointer" href="#">More</a>
+                </span>
+              </div>
+
+            </div>
+            
+            <!-- Main Content -->
+            <div class="flex-1">
+                <div class="header sticky border-b shadow-sm bg-white z-30">
+                    <div class="flex sm:hidden justify-between h-24 items-center mx-4 xl:max-w-6xl xl:mx-auto">
+                        <div class="logo">
+                            <div class="text-logo w-24 hidden lg:inline-grid">
+                              <img src="https://imgs.search.brave.com/9YhXumbH0FwsrKQdGxRsUWdDoW_zX_FxhMsO2yAUSLk/rs:fit:844:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5P/VzZxeXpwYnpHVWFu/dm03YVJHOUtRSGFF/SyZwaWQ9QXBp" alt="instagram-text-logo">
+                            </div>
+                            <div class="icon-logo w-10 lg:hidden">
+                                <img src="https://www.pngall.com/wp-content/uploads/5/Instagram-Logo.png" alt="instagram logo">
+                            </div>
+                        </div>
+                        <div class="logo">searchbar</div>
+                        <div class="logo">menu</div>
+                      </div>
+                </div>
+            </div>
+
+          </div>
+          
+    </div>
+</body>
+</html>
